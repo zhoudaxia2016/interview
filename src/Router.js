@@ -12,11 +12,11 @@ const router = new Router({
     },
     {
       path: "/coding",
-      component: () => import("./components/coding")
+      component: () => import("./components/write")
     },
     {
       path: "/three-column-layout",
-      component: () => import("./components/coding/three-column-layout")
+      component: () => import("./components/write/three-column-layout")
     },
     {
       path: "/concepts",
